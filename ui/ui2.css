@@ -1,0 +1,296 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header{
+}
+body{
+	background-color: #EBEDEF;
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+nav{
+	display: flex;
+	text-decoration: none;
+	width: 100%;
+	background: #245385;
+	padding: 8px;
+	justify-content: space-between;
+}
+h4{
+	padding-top: 7px;
+	padding-left: 6px;
+	padding-bottom: 7px;
+	color: white;
+}
+img{
+	width: 35px;
+	height: 45px;
+}
+nav .logo{
+	display: flex;
+	position: relative;
+	justify-content: space-between;
+}
+.small-container{
+	display: flex;
+	font-weight: bold;
+	padding-right: 750px;
+}
+nav .menu{
+	padding-top: 20px;
+	padding-right: 20px;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 20px;
+	color: #D6DBDF;
+}
+nav .menu:hover{
+	background: #E033C8;
+	color:white;
+	text-decoration:none;
+}
+nav .menu a{
+	text-decoration: none;
+	font-size: 20px;
+	outline: none;
+	color: #D6DBDF;
+}
+
+.bio{
+	padding-top: 20px;
+	text-decoration: none;
+	color: #D6DBDF;
+	border: none;
+	font-size: 20px;
+	border-width: 50px;
+	position: relative;
+	padding-left: .50px;
+}
+.bio:hover{
+	background: #E033C8;
+	color:white;
+	text-decoration:none;
+	transition-duration: 0.4s;
+	
+
+}
+.btntwo{
+	border: none;
+  	color: #D6DBDF;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 16px;
+  	margin: 4px 2px;
+  	cursor: pointer;
+  	background-color: #D80C24 ;
+  	position: absolute;
+  	right: 10px;
+}
+.btntwo:hover{
+	background:#C70D23  ;
+	color:white;
+}
+.container{
+	background-color: white;
+	margin-left: 160px;
+	margin-right: 160px;
+	height: 1000px;
+	margin-bottom: 30px;
+}
+h2{
+	padding-top: 50px;
+	color: #5A8EE9;
+	padding-left: 30px;
+	padding-bottom: 30px;
+}
+span{
+	color: blue;
+}
+h3{
+	padding-left: 30px;
+	margin: 2px;
+	color: #5D6D7E ;
+	margin-bottom: 15px;
+	font-size: 17.6px;	
+}
+
+.raw span{
+	color: green;
+
+}
+h5{
+	padding-left: 30px;
+	color: #ED4621;
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+.notice{
+	margin-top: 20px;
+	padding-right: 20px;
+}
+.notice h5{
+	color: black;
+	font-weight: bold;
+	font-size: 19px;
+	text-align: justify;
+  	text-justify: inter-word;
+}
+.notice span{
+	color:  #ED4621;
+}
+.payment{
+	margin-top: 30px;
+	border: none;
+  	color: #D6DBDF;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 16px;
+  	cursor: pointer;
+  	background-color: #275BF1 ;
+  	position: absolute;
+  	left: 200px;
+  	justify-content: space-around;
+  	display: inline-block;
+}
+.payment .method{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	font-size: 17px
+
+}
+.payment .fa {
+	position: absolute;
+	left: 8px;
+	color: white
+
+}
+.bank{
+	margin-top: 30px;
+	border: none;
+  	color: #D6DBDF;
+  	padding: 15px 32px;
+  	text-align: center;
+  	text-decoration: none;
+  	font-size: 16px;
+  	cursor: pointer;
+  	background-color: #2ACAF5 ;
+  	position: absolute;
+  	left: 430px;
+  	justify-content: space-around;
+  	display: inline-block;
+}
+.bank .syn{
+	text-decoration: none;
+	color: white;
+	font-weight: bolder;
+	font-size: 17px;
+}
+.bank .fa{
+	position: relative;
+	color: white;
+	left:-10px;
+}
+.image{
+	margin-top: 30px;
+  	position: absolute;
+  	left: 680px;
+}
+.image img{
+	width: 34%;
+	height: 50px;
+}
+section{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+.col{
+	padding-top: 100px;
+	padding-bottom: 20px;
+}
+.col li{
+	padding-top: 5px;
+}
+.col h5{
+	position: relative;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+}
+.col ul{
+	padding-left: 80px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.privacy a{
+	padding-left: 30px;
+	text-decoration: none;
+	font-weight: bolder;
+	color: #6986E1;
+	margin-bottom: 40px;
+}
+.receipt{
+	padding-left: 30px;
+	margin-top: 90px;
+	font-size: 18px;
+	margin-bottom: 90px;
+
+}
+.receipt a{
+	padding-left: 2px;
+}
+.receipt hr{
+	margin-top: -10px;
+	margin-bottom:  20px;
+}
+.note{
+	margin-top: -50px;
+}
+
+.note h2{
+	color:#ED4621;
+	padding-bottom: 10px; 
+}
+.note ol{
+	padding-left: 40px;
+	padding-top: 10px;
+}
+
+.container-fluid{
+	padding-left: 20px;
+
+}
+.container-fluid{
+	border-left: 6px solid silver;
+	right:250px;
+	position: absolute;
+	top: 900px;
+	height: 150px;
+	font-size: 28px;
+	text-align: justify;
+ 	text-justify: inter-word
+ 	color:#354441;
+}
+.container-fluid h3{
+	padding-left:-30px;	
+	text-justify: inter-word
+}
+footer{
+	background-color: white;
+	margin-bottom: 100px;
+}
+.foot{
+	padding-left: 800px;
+	color: blue;
+	font-size: 17px;
+	font-weight: bold;
+}	
+hr{
+	color: white;
+}
